@@ -1,0 +1,31 @@
+.jumbotron{
+	background-color: #ecffe6;
+	font-family: times new roman;
+	text-align: center;
+	margin-top: 100px;
+}
+footer{
+	line-height: 20em;
+	text-align: center;
+}
+.panel-group{
+	margin-bottom: 100px;
+	margin-top: 100px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+.panel-body{
+	margin-left: 100px;
+	margin-right: 100px;
+	text-align: justify;
+}
+.row{
+	margin-left: 100px;
+	margin-right: 100px;	
+}
+
+.row img{
+	height:300px;
+	width: 300px;
+	ali
+}

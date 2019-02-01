@@ -1,0 +1,26 @@
+.bg-success{
+	color: white ;
+}
+footer{
+	line-height: 20em;
+	text-align: center;
+}
+.jumbotron{
+	background-color: white;
+}
+.card-header{
+	background-color: #ecffe6;
+}
+.card-footer{
+	background-color: #ecffe6;
+}
+.dropdown-menu a:hover{
+	background-color: #5cb85c;
+}
+.main-text
+{
+    position: absolute;
+    top: 150px;
+    width: 96.66666666666666%;
+    color: white;
+}

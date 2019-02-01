@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/custom.css">
+    <link rel="stylesheet" href="../css/abt_custom.css">
+
+	<title>about page</title>
+</head>
+<body>
+	<div class="jumbotron">
+		<div class="container">
+			<h1>ABOUT US</h1>
+
+		</div>
+	</div>
+	<nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-success">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarexample" aria-expanded="false">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarexample">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="../html/index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../html/form.html">Form</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="navDropdown">About</a>
+                <div class="dropdown-menu" aria-labeledby="navDropdown">
+                	<a href="../about.html" class="dropdown-item">About</a>
+                	<a href="../about.html" class="dropdown-item">Contact</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+     <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="text" placeholder="Type to Search">
+      <button class="btn btn-success my-2 my-sm-0" type="submit" data-toggle="tooltip" data-placement="top" title="click here to search">Search</button>
+</form>
+</nav>
+
+<div class="row destcados">
+	<div class="col-md-4">
+		<img src="../html/img1.jpg" alt="Image 1">
+	</div>
+	<div class="col-md-4">
+		<img src="../html/img2.jpg" alt="Image 2">
+	</div>
+	<div class="col-md-4">
+		<img src="../html/image3.jpg" alt="Image 3">
+	</div>
+
+</div>
+<div class="panel-group" id="accordion">
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<h4 class="panel-title">
+				<a href="#abt-content" class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" style="color: #5cb85c">About</a>
+			</h4>
+		</div>
+		<div id="abt-content" class="panel-collapse collapse in">
+			<div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda labore at dolores accusantium! Nobis quas excepturi facilis dignissimos ut, illum maxime. Culpa dicta vero ratione, rem placeat necessitatibus suscipit, rerum.Dolor augue congue tortor sit tortor sed elit amet congue mauris enim. Mattis sit sed tortor congue consectetur sit diam libero mattis maecenas ante ac mollis ipsum diam lectus vitae maecenas egestas praesent lorem ante elit egestas. Arcu congue a vitae diam et ut lorem congue ut lacinia dolor donec sit arcu egestas amet tincidunt amet augue consectetur porta tincidunt. Consectetur praesent sit a donec et dolor consectetur amet sed sit non elit porta augue amet sed lorem tortor non ut lectus adipiscing ipsum vehicula. Vitae vehicula arcu dolor egestas mollis tortor sed ultricies dolor congue ipsum.</div>
+		</div>
+		<div class="panel panel-default">
+		<div class="panel-heading">
+			<h4 class="panel-title">
+				<a href="#contact-content" class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" style="color: #5cb85c" >Contact</a>
+			</h4>
+		</div>
+		<div id="contact-content" class="panel-collapse collapse in">
+			<div class="panel-body">
+				<p> Address:xxxxxxxxxxxxxx</p>
+				<p>Contact no:00000000000</p>
+				<p>Mail us @: xxxxxxx @ domainname.com</p>
+			</div>
+		</div>
+	</div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script>
+		$(function(){
+    		$('[data-toggle="tooltip"]').tooltip();   
+		})
+	</script>
+<script src="../js/popper.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/bootstrap.js"></script>
+<footer>&copy All rights reserved</footer>
+
+
+</body>
+</html>

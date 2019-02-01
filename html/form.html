@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/custom.css">
+    <link rel="stylesheet" href="../css/form_custom.css">
+	<title>form</title>
+</head>
+<body>
+	<div class="jumbotron">
+		<div class="container">
+			<h2>WE VALUE YOUR FEEDBACK!!</h2>
+			<h5 class="text-muted">Write us a few words that would help us improve...</h5>
+
+	</div>
+	</div>
+	<nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-success">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarexample" aria-expanded="false">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarexample">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="../html/index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../html/form.html">Form</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="navDropdown">About</a>
+                <div class="dropdown-menu" aria-labeledby="navDropdown">
+                	<a href="../html/about.html" class="dropdown-item">About</a>
+                	<a href="../html/about.html" class="dropdown-item">Contact</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <form class="form-inline my-2 my-lg-0">
+      	<input class="form-control mr-sm-2" type="text" placeholder="Type to Search">
+      	<button class="btn btn-success my-2 my-sm-0" type="submit" data-toggle="tooltip" data-placement="top" title="click here to search">Search</button>
+	</form>
+	</nav>
+	<form>
+		<div class="form-group row">
+			<label for="name" class="col-sm-2 col-form-label">Name</label>
+			<div class="col-sm-4">
+				<input type="text" id="name" class="form-control" placeholder="First name">
+			</div>
+			<div class="col-sm-4">
+				<input type="text" id="name" class="form-control" placeholder="Last name">
+			</div>
+		</div>
+	<div class="form-group row">
+		<label for="email" class="col-sm-2 col-form-label"> Email</label>
+		<div class="col-sm-4">
+			<input type="text" id="email" class="form-control" placeholder="username@example.com">
+			<small id="emailHelp" class="form-text text-muted">Please enter your email id here</small>
+		</div>
+	</div>
+	<div class="form-group row">
+		<label for="pwd" class="col-sm-2 col-form-label">Password</label>
+		<div class="col-sm-4">
+			<input type="text" id="pwd" class="form-control" placeholder="Enter the password">
+			<small id="passwordHelp" class="form-text text-muted">The password should be 6-15 characters long</small>
+		</div>
+	</div>
+	<fieldset class="form-group">
+		<div class="row">
+			<legend class="col-form-label col-sm-2 pt-0">Gender</legend> 
+			<div class="col-sm-2">
+				<div class="form-check">
+					<input type="radio" class="form-check-input" name="gridradio" id="male" value="male">
+					<label for="male" class="form-check-label">Male</label>
+				</div>
+			</div>
+			<div class="col-sm-2">
+				<div class="form-check">
+					<input type="radio" class="form-check-input" name="gridradio" id="female" value="female">
+					<label for="female" class="form-check-label">Female</label>
+				</div>
+			</div>
+		</div>
+	</fieldset>
+	<div class="form-group row">
+		<label for="address" class="col-sm-2 col-form-label">Address</label>
+		<div class="col-sm-8">
+			<input type="text" id="address" class="form-control" placeholder="Door No/Flat No, Building Name, Street, City, State">
+			<small id="addresshelp" class="form-text text-muted"> Please enter your address here</small>
+		</div>
+	</div>
+	<div class="forn-group row">
+		<label for="feedback" class="col-form-label col-sm-2">Feedback</label>
+		<div class="col-sm-10">
+			<textarea name="feedback" id="feedback" cols="124" rows="5" placeholder="Enter your Feedback here"></textarea>
+		</div>
+	</div>
+	<br>
+	<div class="form-group row">
+		<label for="rating" class="col-sm-2 col-form-label">Rate us out of 5</label>
+		<div class="col-sm-2">
+			<select name="rating" id="rating" class="form-control">
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+			</select>
+		</div>
+	</div>
+	<div class="form-group row">
+		<div class="col-sm-5">
+			<div class="form-check">
+				<input type="checkbox" class="form-check-input" id="checkbox1">
+				<label for="checkbox1" class="form-check-label">I have done</label>
+			</div>
+		</div>
+	</div>
+	<br>
+	<div class="form-group row">
+		<div class="col-sm-10">
+			<button type="button" class="btn btn-success" data-toggle="modal" data-target="#modaltext">Submit</button>
+		</div>
+	</div>
+	<div class="modal fade" id="modaltext" tabindex="-1" role="dialog" aria-labelledby="modaldisplaytext" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-slideout" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h3 class="modal-title" id="modaldisplaytext">All done!!!</h3>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          				<span aria-hidden="true">&times;</span>
+        			</button>
+				</div>
+				<div class="modal-body">
+					Your response is submitted. Thank you for your valueable time
+				</div>
+				<div class="modal-footer">
+        			<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+     			</div>
+			</div>
+		</div>
+	</div>
+	</form>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script>
+		$(function(){
+    		$('[data-toggle="tooltip"]').tooltip();   
+		})
+	</script>
+<script src="../js/popper.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/bootstrap.js"></script>
+<footer>&copy All rights reserved</footer>
+
+</body>
+</html>
